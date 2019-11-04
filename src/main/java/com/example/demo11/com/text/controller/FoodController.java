@@ -14,6 +14,7 @@ public class FoodController {
     @Autowired
     private FoodService foodService;
 
+    //Hello,github!
     @GetMapping("insert")
     public CommonResponse insert(){
 
